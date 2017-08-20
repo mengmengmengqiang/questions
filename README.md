@@ -119,14 +119,10 @@
 
 请使用Lisp语言定义一个递归函数，用来表示数列
 
-$$
-\left\{ 
-\begin{array}{c}
-a_1x+b_1y+c_1z=d_1 \\ 
-a_2x+b_2y+c_2z=d_2 \\ 
-a_3x+b_3y+c_3z=d_3
-\end{array}
-\right. 
-$$
+$$\begin{cases}
+               a_{11}x_1&+&a_{12}x_2&+&\cdots&+a_{1n}x_n&=&b_1\\
+               &&&&\vdots\\
+               a_{n1}x_1&+&a_{n2}x_2&+&\cdots&+a_{nn}x_n&=&b_n&
+        \end{cases}$$
 
 ### <p id="1.3.2">答案以及评分细则</p>
